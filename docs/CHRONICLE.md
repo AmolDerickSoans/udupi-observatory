@@ -24,7 +24,7 @@ At 390 × 844, an initial test found overlapping map controls and an oversized l
 
 The lead reports a deployed Cloudflare Worker and D1 database, management returning 401 without a token and 200 with one, and a successful synthetic, contact-free intake submitted from the UI and read back through the authenticated API. The lead then reports deleting only that exact QA row using its UUID and title predicate, with one row affected. The owner secret is stored outside Git and the lead reports scanning publishable source for its absence. Eight core/backend tests and checks covering 11 brief links and OSINT data scope passed according to the lead.
 
-The frontend publication workflow is being prepared. At this entry, source push, GitHub Actions completion and the public GitHub Pages site have not yet been verified. **Pass 3 remains pending** until those live release checks are observed. User acceptance is not assumed.
+The lead reports source published at commit `db6b54ab736c5355e60346fe4c4c2b41f0cc0f45`. [GitHub Actions run 42394615715](https://github.com/AmolDerickSoans/udupi-observatory/actions/runs/42394615715) completed build and deployment successfully. The lead then observed [the live Pages site](https://amoldericksoans.github.io/udupi-observatory/) rendering OpenFreeMap coastlines and roads, the deck.gl heatmap and all 471 sourced features without console errors. JavaScript, CSS, favicon, chronicle and both research JSON files returned HTTP 200. NASA’s fixed 2016 night imagery was also observed rendering in the preview, with its coarse and historical nature stated. **Pass 3 is complete for this verified deployment and tested paths.** User acceptance is not assumed.
 
 ## Historical status — first iteration rejected
 

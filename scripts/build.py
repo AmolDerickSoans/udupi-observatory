@@ -34,7 +34,7 @@ for s in market['samples']:
 (ROOT / 'assets/data.js').write_text('window.LEDGER_DATA = ' + json.dumps(dict(listings=listings,sources=risk['sources']),ensure_ascii=False).replace('</','<\\/') + ';\n')
 with (ROOT / 'research/listing-sample.csv').open('w',newline='') as f:
     columns = ['id','market','locality','asset','deal','askDisplay','unitDisplay','areaDisplay','areaBasis','listingDate','reviewedDate','sourceLabel','evidenceType','caution','note','url']
-    writer = csv.DictWriter(f, fieldnames=columns,extrasaction='ignore'); writer.writeheader(); writer.writerows(listings)
+    writer = csv.DictWriter(f, fieldnames=columns,extrasaction='ignore',lineterminator='\n'); writer.writeheader(); writer.writerows(listings)
 
 NAV = [('index','Overview'),('dashboard','Market dashboard'),('markets','Micro-markets'),('discovery','Price & returns'),('atlas','Geographical atlas'),('playbooks','Insider playbooks'),('risks','Risks & diligence'),('scenarios','Scenarios'),('sources','Sources & method'),('chronicle','Build chronicle')]
 def badge(t,kind='observed'): return f'<span class="badge {kind}">{t}</span>'
