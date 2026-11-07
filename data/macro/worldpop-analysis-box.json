@@ -1,0 +1,131 @@
+{
+  "title": "WorldPop Global2 R2025A: illustrative analysis box",
+  "classification": "modelled estimate / projection",
+  "geography": "Custom rectangle covering Udupi, Manipal and Malpe and surrounding settlements and sea; not a municipal or triad boundary",
+  "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          74.65,
+          13.28
+        ],
+        [
+          74.85,
+          13.28
+        ],
+        [
+          74.85,
+          13.39
+        ],
+        [
+          74.65,
+          13.39
+        ],
+        [
+          74.65,
+          13.28
+        ]
+      ]
+    ]
+  },
+  "area_km2": 263.6863,
+  "unit": "modelled persons",
+  "resolution": "100 m",
+  "source": "https://api.worldpop.org/v3/",
+  "methodology": "https://data.worldpop.org/repo/prj/Global_2015_2030/R2025A/doc/Global2_Release_Statement_R2025A_v1.pdf",
+  "request": {
+    "url": "https://api.worldpop.org/v3/trend",
+    "method": "POST",
+    "body": {
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.65,
+              13.28
+            ],
+            [
+              74.85,
+              13.28
+            ],
+            [
+              74.85,
+              13.39
+            ],
+            [
+              74.65,
+              13.39
+            ],
+            [
+              74.65,
+              13.28
+            ]
+          ]
+        ]
+      },
+      "from_year": 2015,
+      "to_year": 2025
+    }
+  },
+  "accessed": "2026-11-07",
+  "years": [
+    {
+      "data_year": 2015,
+      "total_population": 517877.63,
+      "population_density": 1963.99
+    },
+    {
+      "data_year": 2016,
+      "total_population": 522575.58,
+      "population_density": 1981.81
+    },
+    {
+      "data_year": 2017,
+      "total_population": 527342.89,
+      "population_density": 1999.89
+    },
+    {
+      "data_year": 2018,
+      "total_population": 531514.07,
+      "population_density": 2015.71
+    },
+    {
+      "data_year": 2019,
+      "total_population": 535449.53,
+      "population_density": 2030.63
+    },
+    {
+      "data_year": 2020,
+      "total_population": 539166.21,
+      "population_density": 2044.73
+    },
+    {
+      "data_year": 2021,
+      "total_population": 542644.0,
+      "population_density": 2057.92
+    },
+    {
+      "data_year": 2022,
+      "total_population": 545165.66,
+      "population_density": 2067.48
+    },
+    {
+      "data_year": 2023,
+      "total_population": 548304.65,
+      "population_density": 2079.38
+    },
+    {
+      "data_year": 2024,
+      "total_population": 551415.36,
+      "population_density": 2091.18
+    },
+    {
+      "data_year": 2025,
+      "total_population": 554575.41,
+      "population_density": 2103.16
+    }
+  ],
+  "limitations": "Modelled spatial disaggregation of input population counts with interpolated and projected totals, not a headcount. Includes settlements beyond triad and sea. The boundary is an arbitrary rectangle, and results must not be labelled as population of Udupi city or the triad. Precise decimal output does not indicate precision. Not evidence of observed annual population change, rental demand or footfall."
+}

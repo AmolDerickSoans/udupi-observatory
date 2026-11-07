@@ -1,0 +1,510 @@
+{
+  "as_of": "2026-11-07",
+  "macro": {
+    "population": [
+      {
+        "year": 2001,
+        "value": 1112243,
+        "unit": "persons",
+        "geography": "Udupi district, Karnataka (2001 census boundaries)",
+        "coverage": "enumerated district residents",
+        "source": "https://censusindia.gov.in/nada/index.php/catalog/43808/download/47511/DH_29_2001_UDU.pdf",
+        "status": "Census count"
+      },
+      {
+        "year": 2011,
+        "value": 1177361,
+        "unit": "persons",
+        "geography": "Udupi district, Karnataka (2011 census boundaries)",
+        "coverage": "enumerated district residents",
+        "source": "https://nihfw.ac.in/Doc/Census_2001-2011_2.pdf",
+        "status": "Census count",
+        "source_note": "Government health institute reproduction of Census 2011 district table."
+      }
+    ],
+    "gddp": [
+      {
+        "fiscal_year": "2018-19",
+        "current_crore": 39476,
+        "constant_2011_12_crore": 29674,
+        "net_current_crore": null,
+        "net_constant_2011_12_crore": null,
+        "per_capita_net_current_inr": null,
+        "unit": "INR crore except per-capita INR",
+        "geography": "Udupi district",
+        "coverage": "entire district; not Udupi city or triad",
+        "source": "https://www.nabard.org/auth/writereaddata/tender/KAR_Udupi.pdf",
+        "source_table": "NABARD Udupi PLP 2023-24, citing Karnataka Economic Survey",
+        "status": "reported estimate",
+        "notes": "NABARD repeats Government of Karnataka figures; survey vintage may differ from adjacent observations."
+      },
+      {
+        "fiscal_year": "2019-20",
+        "current_crore": 41550.95,
+        "constant_2011_12_crore": 30586.07,
+        "net_current_crore": 37901.14,
+        "net_constant_2011_12_crore": 27625.99,
+        "per_capita_net_current_inr": 297524,
+        "unit": "INR crore except per-capita INR",
+        "geography": "Udupi district",
+        "coverage": "entire district; not Udupi city or triad",
+        "source": "https://data.opencity.in/dataset/c48d1056-a9be-46cc-a4d8-a518cc310214/resource/5a80d756-8905-4fef-9c1f-a1aaa86beaea/download/karnataka-economic-survey-2021-22-m2_eng_final.pdf",
+        "source_table": "Karnataka Economic Survey district domestic product table",
+        "status": "survey estimate",
+        "notes": "2019-20 published in lakh, divided by 100; other years in crore. Survey vintages may be revised; 2020-21 is missing, not zero."
+      },
+      {
+        "fiscal_year": "2021-22",
+        "current_crore": 52505,
+        "constant_2011_12_crore": 33347,
+        "net_current_crore": 47946,
+        "net_constant_2011_12_crore": 30146,
+        "per_capita_net_current_inr": 370834,
+        "unit": "INR crore except per-capita INR",
+        "geography": "Udupi district",
+        "coverage": "entire district; not Udupi city or triad",
+        "source": "https://static.investindia.gov.in/s3fs-public/2023-03/Karnataka%20Economic%20Survey%202022-23%20English.pdf",
+        "source_table": "Karnataka Economic Survey district domestic product table",
+        "status": "provisional",
+        "notes": "2019-20 published in lakh, divided by 100; other years in crore. Survey vintages may be revised; 2020-21 is missing, not zero."
+      },
+      {
+        "fiscal_year": "2022-23",
+        "current_crore": 59236,
+        "constant_2011_12_crore": 36365,
+        "net_current_crore": 53900,
+        "net_constant_2011_12_crore": 32657,
+        "per_capita_net_current_inr": 414274,
+        "unit": "INR crore except per-capita INR",
+        "geography": "Udupi district",
+        "coverage": "entire district; not Udupi city or triad",
+        "source": "https://data.opencity.in/dataset/de00ffc3-ac9c-4bab-afb9-e2c09cbf8ba7/resource/e2070b71-b67d-4ab2-9e4b-5afb6d320f9e/download/b96f076f-9b1c-48b2-bc1b-f081f1beca84.pdf",
+        "source_table": "Karnataka Economic Survey district domestic product table",
+        "status": "provisional",
+        "notes": "2019-20 published in lakh, divided by 100; other years in crore. Survey vintages may be revised; 2020-21 is missing, not zero."
+      },
+      {
+        "fiscal_year": "2023-24",
+        "current_crore": 67503,
+        "constant_2011_12_crore": 40675,
+        "net_current_crore": 61266,
+        "net_constant_2011_12_crore": 36616,
+        "per_capita_net_current_inr": 533469,
+        "unit": "INR crore except per-capita INR",
+        "geography": "Udupi district",
+        "coverage": "entire district; not Udupi city or triad",
+        "source": "https://data.opencity.in/dataset/de112131-ef56-4c2a-a001-da90cc0d06ca/resource/d652fb65-fde9-4c2b-a021-256c1bd7b73a/download/economic-survey-2024-25_compressed.pdf",
+        "source_table": "Karnataka Economic Survey district domestic product table",
+        "status": "provisional",
+        "notes": "2019-20 published in lakh, divided by 100; other years in crore. Survey vintages may be revised; 2020-21 is missing, not zero."
+      }
+    ],
+    "demand_proxies": [
+      {
+        "year": 2024,
+        "metric": "MAHE students in Manipal university town",
+        "value": 30000,
+        "qualifier": "more than",
+        "unit": "students",
+        "geography": "Manipal university town, Udupi district",
+        "coverage": "MAHE fact-sheet claim; not measured renters",
+        "source": "https://factsheets.rennes-sb.com/India/Manipal%20Academy%20of%20Higher%20Education/Fact%20Sheet%202024.pdf",
+        "status": "institutional fact sheet, hosted by partner",
+        "limitations": "Not a count of off-campus tenants, households or triad housing demand."
+      },
+      {
+        "year": null,
+        "metric": "MAHE students across campuses",
+        "value": 35000,
+        "qualifier": "more than",
+        "unit": "students",
+        "geography": "MAHE campuses across Manipal, Mangaluru, Bengaluru, Jamshedpur and Dubai",
+        "coverage": "institution-wide, not local campus",
+        "source": "https://mahe.onlinemanipal.com/about-us",
+        "status": "institutional undated claim",
+        "limitations": "Do not compare to town figure as a time series."
+      }
+    ],
+    "worldpop_analysis_box": {
+      "title": "WorldPop Global2 R2025A: illustrative analysis box",
+      "classification": "modelled estimate / projection",
+      "geography": "Custom rectangle covering Udupi, Manipal and Malpe and surrounding settlements and sea; not a municipal or triad boundary",
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.65,
+              13.28
+            ],
+            [
+              74.85,
+              13.28
+            ],
+            [
+              74.85,
+              13.39
+            ],
+            [
+              74.65,
+              13.39
+            ],
+            [
+              74.65,
+              13.28
+            ]
+          ]
+        ]
+      },
+      "area_km2": 263.6863,
+      "unit": "modelled persons",
+      "resolution": "100 m",
+      "source": "https://api.worldpop.org/v3/",
+      "methodology": "https://data.worldpop.org/repo/prj/Global_2015_2030/R2025A/doc/Global2_Release_Statement_R2025A_v1.pdf",
+      "request": {
+        "url": "https://api.worldpop.org/v3/trend",
+        "method": "POST",
+        "body": {
+          "geojson": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  74.65,
+                  13.28
+                ],
+                [
+                  74.85,
+                  13.28
+                ],
+                [
+                  74.85,
+                  13.39
+                ],
+                [
+                  74.65,
+                  13.39
+                ],
+                [
+                  74.65,
+                  13.28
+                ]
+              ]
+            ]
+          },
+          "from_year": 2015,
+          "to_year": 2025
+        }
+      },
+      "accessed": "2026-11-07",
+      "years": [
+        {
+          "data_year": 2015,
+          "total_population": 517877.63,
+          "population_density": 1963.99
+        },
+        {
+          "data_year": 2016,
+          "total_population": 522575.58,
+          "population_density": 1981.81
+        },
+        {
+          "data_year": 2017,
+          "total_population": 527342.89,
+          "population_density": 1999.89
+        },
+        {
+          "data_year": 2018,
+          "total_population": 531514.07,
+          "population_density": 2015.71
+        },
+        {
+          "data_year": 2019,
+          "total_population": 535449.53,
+          "population_density": 2030.63
+        },
+        {
+          "data_year": 2020,
+          "total_population": 539166.21,
+          "population_density": 2044.73
+        },
+        {
+          "data_year": 2021,
+          "total_population": 542644.0,
+          "population_density": 2057.92
+        },
+        {
+          "data_year": 2022,
+          "total_population": 545165.66,
+          "population_density": 2067.48
+        },
+        {
+          "data_year": 2023,
+          "total_population": 548304.65,
+          "population_density": 2079.38
+        },
+        {
+          "data_year": 2024,
+          "total_population": 551415.36,
+          "population_density": 2091.18
+        },
+        {
+          "data_year": 2025,
+          "total_population": 554575.41,
+          "population_density": 2103.16
+        }
+      ],
+      "limitations": "Modelled spatial disaggregation of input population counts with interpolated and projected totals, not a headcount. Includes settlements beyond triad and sea. The boundary is an arbitrary rectangle, and results must not be labelled as population of Udupi city or the triad. Precise decimal output does not indicate precision. Not evidence of observed annual population change, rental demand or footfall."
+    }
+  },
+  "developers": [
+    {
+      "name": "Mandavi Builders",
+      "project": "Mandavi Royal Garden",
+      "location": "Kalsanka Junction, Udupi",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/180424/006793",
+      "status": "Developer lists as ongoing",
+      "source": "https://mandavibuilders.com/ongoing-projects/",
+      "source_type": "developer self-report",
+      "evidence_as_of": "2026-11-07",
+      "history": "Developer says operating since 1996 and over 30 projects; self-reported, not independently audited.",
+      "review_url": "https://www.justdial.com/Manipal/Mandavi-Developers-Eshwar-Nagar/0820PX820-X820-100222115134-K2F3_BZDET/reviews",
+      "review_note": "Business listing, not Royal Garden project; Justdial labels this a rating index based on ratings across the web, not 18 independently verified buyers. Listing address matches Mandavi Real Estate Developers in the 2016 SEAC agenda; business name identity is plausible, not verified by RERA. Search-indexed snapshot; score can change.",
+      "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+      "review_evidence": [
+        {
+          "platform": "Justdial",
+          "title": "Mandavi Developers, Eshwar Nagar, Manipal",
+          "url": "https://www.justdial.com/Manipal/Mandavi-Developers-Eshwar-Nagar/0820PX820-X820-100222115134-K2F3_BZDET/reviews",
+          "score": 4.2,
+          "score_max": 5,
+          "count": 18,
+          "observed_date": "2026-11-07",
+          "scope": "Business listing, not Royal Garden project",
+          "limitations": "Justdial labels this a rating index based on ratings across the web, not 18 independently verified buyers. Listing address matches Mandavi Real Estate Developers in the 2016 SEAC agenda; business name identity is plausible, not verified by RERA. Search-indexed snapshot; score can change.",
+          "review_themes": []
+        },
+        {
+          "platform": "Wanderlog",
+          "title": "Mandavi Prince Palace, Udupi",
+          "url": "https://wanderlog.com/place/details/8380707",
+          "score": 4.3,
+          "score_max": 5,
+          "count": 313,
+          "observed_date": "2026-11-07",
+          "scope": "Another Mandavi project, Prince Palace; Google reviews displayed by Wanderlog",
+          "limitations": "Aggregator repeats Google-sourced reviews; captured search-indexed snapshot, not live verified Google rating. Not a score for Royal Garden or developer delivery. The developer lists Prince Palace in its portfolio.",
+          "review_themes": [
+            {
+              "summary": "An April 2025 reviewer reported a positive move-in experience and staff behaviour.",
+              "review_date": "2025-04-13",
+              "attribution": "Dwani S, Google review reproduced by Wanderlog",
+              "caveat": "Individual self-reported experience; not independently verified."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grasslands Developers / Grazlanz Properties LLP",
+      "project": "Grasslands Lakeside",
+      "location": "Manipal Lake, Shivalli",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/210825/008020",
+      "status": "Developer lists as ongoing",
+      "source": "https://grasslandsdevelopers.in/lakeside/",
+      "source_type": "developer self-report",
+      "evidence_as_of": "2026-11-07",
+      "history": "Developer brochure calls this its 18th landmark project; unverified.",
+      "review_url": "https://www.justdial.com/Udupi/Grasslands-Developers-Above-Harsha-Furniture-Showroom-Ajjarkad/0820PX820-X820-140218111601-I7E1_BZDET/reviews",
+      "review_note": "Grasslands business listing, Ajjarkad; not Lakeside project; Justdial index uses ratings across the web; reviewer identity, ownership and transaction status not verified. Search-indexed snapshot; no legible review text to support sentiment themes. Radha Complex office is corroborated on https://propertyyoga.com/property-for-sale/sudarshan-residency/.",
+      "limitations": "Horizon names promoter Grazlanz Properties LLP and gives December 2033 proposed completion; Housing lists December 2030, so confirm live authority filing. https://gethorizon.in/projects/grasslands-lakeside-udupi-8qgko9qv",
+      "review_evidence": [
+        {
+          "platform": "Justdial",
+          "title": "Grasslands Developers, Ajjarkad",
+          "url": "https://www.justdial.com/Udupi/Grasslands-Developers-Above-Harsha-Furniture-Showroom-Ajjarkad/0820PX820-X820-140218111601-I7E1_BZDET/reviews",
+          "score": 4.8,
+          "score_max": 5,
+          "count": 43,
+          "observed_date": "2026-11-07",
+          "scope": "Grasslands business listing, Ajjarkad; not Lakeside project",
+          "limitations": "Justdial index uses ratings across the web; reviewer identity, ownership and transaction status not verified. Search-indexed snapshot; no legible review text to support sentiment themes. Radha Complex office is corroborated on https://propertyyoga.com/property-for-sale/sudarshan-residency/.",
+          "review_themes": []
+        }
+      ]
+    },
+    {
+      "name": "Malpe Manipal Builders Private Limited",
+      "project": "Royal Embassy",
+      "location": "D.C. Office Road, Manipal",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/171031/001531",
+      "status": "Third-party mirror labels completed; confirm",
+      "source": "https://www.aurumproptech.in/pulse/rera/karnataka/udupi/royal-embassy/1907",
+      "source_type": "third-party reproduction or authority document",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": "https://housing.com/in/buy/projects/page/203660-malpe-royal-embassy-by-malpe-manipal-builders-pvt-ltd-in-vidyaratna-nagar/reviews",
+      "review_note": "Royal Embassy project; Page reported no reviews to show in the indexed snapshot; no rating or conclusion about buyer experience is available.",
+      "limitations": "Mirror has conflicting district and progress fields; completed label alone is not an occupancy certificate.",
+      "review_evidence": [
+        {
+          "platform": "Housing.com",
+          "title": "Malpe Royal Embassy project reviews",
+          "url": "https://housing.com/in/buy/projects/page/203660-malpe-royal-embassy-by-malpe-manipal-builders-pvt-ltd-in-vidyaratna-nagar/reviews",
+          "score": null,
+          "score_max": null,
+          "count": null,
+          "observed_date": "2026-11-07",
+          "scope": "Royal Embassy project",
+          "limitations": "Page reported no reviews to show in the indexed snapshot; no rating or conclusion about buyer experience is available.",
+          "review_themes": []
+        }
+      ]
+    },
+    {
+      "name": "Bhavani Builders and Developers",
+      "project": "Bhavani Red Coral",
+      "location": "Shivalli, Manipal–Alevoor Road",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/180313/002224",
+      "status": "Third-party mirror labels completed; confirm",
+      "source": "https://www.aurumproptech.in/pulse/rera/karnataka/udupi/bhavani-red-coral/2852",
+      "source_type": "third-party reproduction or authority document",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": "https://www.justdial.com/Udupi/Bhavani-Builders-Near-Yamaha-Show-Room-Kunjibettu/0820PX820-X820-180629174948-L1C2_BZDET",
+      "review_note": "Business listing at Bhavani Red Coral Building, not project rating; Very small, across-web rating index. Listing includes generic service/repair comments; relevance to purchase or construction of a home is unverified. Search-indexed snapshot; not a quality assessment.",
+      "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+      "review_evidence": [
+        {
+          "platform": "Justdial",
+          "title": "Bhavani Builders, Kunjibettu",
+          "url": "https://www.justdial.com/Udupi/Bhavani-Builders-Near-Yamaha-Show-Room-Kunjibettu/0820PX820-X820-180629174948-L1C2_BZDET",
+          "score": 4.8,
+          "score_max": 5,
+          "count": 4,
+          "observed_date": "2026-11-07",
+          "scope": "Business listing at Bhavani Red Coral Building, not project rating",
+          "limitations": "Very small, across-web rating index. Listing includes generic service/repair comments; relevance to purchase or construction of a home is unverified. Search-indexed snapshot; not a quality assessment.",
+          "review_themes": [
+            {
+              "summary": "A reviewer described prompt service and flexible scheduling in October 2025.",
+              "review_date": "2025-10-03",
+              "attribution": "Santosh, Justdial",
+              "caveat": "Generic repair/service wording does not establish a homebuyer experience; account and experience unverified."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Supreme Builders and Developers",
+      "project": "Supreme Pearl",
+      "location": "Kukkikatte, Udupi",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/200103/003101",
+      "status": "2024 legislative record lists proposed completion 2023-12-30; present status unknown",
+      "source": "https://kla.kar.nic.in/council/Replies/unstarred/11122024/usq336%2811122024%29.pdf",
+      "source_type": "third-party reproduction or authority document",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": null,
+      "review_note": "No review evidence verified for this specific developer or project.",
+      "limitations": "Location and name association from property portal https://www.ghar.tv/udupi/kukkikatte/kukkikatte/; confirm it is same filing with authority before relying on the match.",
+      "review_evidence": []
+    },
+    {
+      "name": "Khain Properties",
+      "project": "Aashraya Apartments",
+      "location": "Kalsanka, Udupi",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/180328/002597",
+      "status": "Current completion status unknown",
+      "source": "https://www.khainproperties.com/aashraya-apartments-udupi.php",
+      "source_type": "developer self-report",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": "https://m.justdial.com/Udupi/Khain-Properties-Above-Pai-International-Udupi-Courts/0820PX820-X820-131231100835-I6D9_BZDET",
+      "review_note": "Court Road business listing, not Aashraya project; Justdial labels the score an across-web rating index. Listing address matches Khain’s public promoter address; page includes hotel-booking boilerplate. Ratings do not establish homebuyer status; search-indexed snapshot.",
+      "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+      "review_evidence": [
+        {
+          "platform": "Justdial",
+          "title": "Khain Properties, Court Road, Udupi",
+          "url": "https://m.justdial.com/Udupi/Khain-Properties-Above-Pai-International-Udupi-Courts/0820PX820-X820-131231100835-I6D9_BZDET",
+          "score": 4.9,
+          "score_max": 5,
+          "count": 29,
+          "observed_date": "2026-11-07",
+          "scope": "Court Road business listing, not Aashraya project",
+          "limitations": "Justdial labels the score an across-web rating index. Listing address matches Khain’s public promoter address; page includes hotel-booking boilerplate. Ratings do not establish homebuyer status; search-indexed snapshot.",
+          "review_themes": []
+        }
+      ]
+    },
+    {
+      "name": "Associate Builders and Construction",
+      "project": "Associate Signature",
+      "location": "Adi-Udupi",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/060623/005977",
+      "status": "Current completion status unknown",
+      "source": "https://housing.com/in/buy/projects/page/301291-associate-signature-by-associate-builders-and-construction-in-adiudupi",
+      "source_type": "third-party reproduction or authority document",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": null,
+      "review_note": "No review evidence verified for this specific developer or project.",
+      "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+      "review_evidence": []
+    },
+    {
+      "name": "M S Nayak Constructions and Developers",
+      "project": "ND Saurabha",
+      "location": "Herga, Manipal",
+      "rera_id": "PRM/KA/RERA/1273/318/PR/210518/004152",
+      "status": "Legislative record lists expiry 2026-12-31; current construction and extension status unknown",
+      "source": "https://kla.kar.nic.in/council/house/Paperlaid/149/49.pdf",
+      "source_type": "Karnataka legislature record; locality corroborated by project mirror",
+      "evidence_as_of": "2026-11-07",
+      "history": "Founding date and portfolio size not independently verified.",
+      "review_url": null,
+      "review_note": "No review evidence verified for this specific developer or project.",
+      "limitations": "Government table provides promoter address; project location corroborated by https://www.aurumproptech.in/pulse/rera/karnataka/udupi/nd-saurabha/8080. Verify live status with Karnataka RERA.",
+      "review_evidence": []
+    }
+  ],
+  "nightlights": {
+    "title": "NASA Black Marble VIIRS",
+    "geography": "Udupi–Manipal–Malpe, Karnataka",
+    "bounds_wgs84": [
+      74.65,
+      13.28,
+      74.85,
+      13.39
+    ],
+    "display": {
+      "layer": "VIIRS_Black_Marble",
+      "year": 2016,
+      "available_years": [
+        2012,
+        2016
+      ],
+      "format": "PNG",
+      "crs": "EPSG:3857",
+      "max_native_zoom": 8,
+      "tile_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png",
+      "example_tile": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/8/118/181.png",
+      "capabilities": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml",
+      "attribution": "NASA EOSDIS GIBS / VIIRS Suomi NPP",
+      "note": "Basemap imagery, not transparent radiance overlay; native maximum level 8. 2012 and 2016 are fixed composites, not a continuous annual series."
+    },
+    "scientific": {
+      "product": "VNP46A4.002",
+      "resolution": "15 arc-second",
+      "cadence": "annual",
+      "source": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A4",
+      "doi": "https://doi.org/10.5067/VIIRS/VNP46A4.002",
+      "access": "NASA Earthdata authentication required for bulk scientific data",
+      "latest_verified_year": null,
+      "local_statistics": [],
+      "limitations": "No locally extracted annual radiance data available; do not infer footfall, population, property values, or annual change from rendered tiles."
+    }
+  }
+}

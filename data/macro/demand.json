@@ -1,0 +1,26 @@
+[
+  {
+    "year": 2024,
+    "metric": "MAHE students in Manipal university town",
+    "value": 30000,
+    "qualifier": "more than",
+    "unit": "students",
+    "geography": "Manipal university town, Udupi district",
+    "coverage": "MAHE fact-sheet claim; not measured renters",
+    "source": "https://factsheets.rennes-sb.com/India/Manipal%20Academy%20of%20Higher%20Education/Fact%20Sheet%202024.pdf",
+    "status": "institutional fact sheet, hosted by partner",
+    "limitations": "Not a count of off-campus tenants, households or triad housing demand."
+  },
+  {
+    "year": null,
+    "metric": "MAHE students across campuses",
+    "value": 35000,
+    "qualifier": "more than",
+    "unit": "students",
+    "geography": "MAHE campuses across Manipal, Mangaluru, Bengaluru, Jamshedpur and Dubai",
+    "coverage": "institution-wide, not local campus",
+    "source": "https://mahe.onlinemanipal.com/about-us",
+    "status": "institutional undated claim",
+    "limitations": "Do not compare to town figure as a time series."
+  }
+]

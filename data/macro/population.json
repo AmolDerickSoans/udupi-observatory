@@ -1,0 +1,21 @@
+[
+  {
+    "year": 2001,
+    "value": 1112243,
+    "unit": "persons",
+    "geography": "Udupi district, Karnataka (2001 census boundaries)",
+    "coverage": "enumerated district residents",
+    "source": "https://censusindia.gov.in/nada/index.php/catalog/43808/download/47511/DH_29_2001_UDU.pdf",
+    "status": "Census count"
+  },
+  {
+    "year": 2011,
+    "value": 1177361,
+    "unit": "persons",
+    "geography": "Udupi district, Karnataka (2011 census boundaries)",
+    "coverage": "enumerated district residents",
+    "source": "https://nihfw.ac.in/Doc/Census_2001-2011_2.pdf",
+    "status": "Census count",
+    "source_note": "Government health institute reproduction of Census 2011 district table."
+  }
+]

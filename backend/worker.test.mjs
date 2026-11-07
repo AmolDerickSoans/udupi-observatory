@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { timingSafeEqual } from 'node:crypto';
+import worker, { validate } from './worker.js';
+crypto.subtle.timingSafeEqual = (a,b) => timingSafeEqual(Buffer.from(a), Buffer.from(b));
+const origin = 'https://amoldericksoans.github.io';
+const env = { ADMIN_TOKEN: 'test-secret', RATE_LIMITER: { limit: async () => ({ success: true }) }, DB: { prepare: () => ({ bind: () => ({ run: async () => ({ success: true }) }), all: async () => ({ results: [] }) }) } };
+const request = (path, options = {}) => new Request(`https://example.test${path}`, { ...options, headers: { Origin: origin, 'CF-Connecting-IP': '192.0.2.1', ...options.headers } });
+test('validation rejects unconsented contact and unsafe URLs', () => { const base = { title:'House', locationApprox:'Malpe', locationPrecision:'locality' }; assert.match(validate({ ...base, contact:'123' }), /consent/); assert.match(validate({ ...base, sourceUrl:'javascript:alert(1)' }), /HTTP/); assert.equal(validate({ ...base, contact:'123', consent:true }), null); });
+test('intake accepts valid data and rejects foreign origin', async () => { const body = JSON.stringify({ title:'House', locationApprox:'Malpe', locationPrecision:'locality' }); let res = await worker.fetch(request('/api/intake', { method:'POST', headers:{ 'Content-Type':'application/json' }, body }), env); assert.equal(res.status, 201); res = await worker.fetch(request('/api/intake', { method:'POST', headers:{ Origin:'https://evil.example', 'Content-Type':'application/json' }, body }), env); assert.equal(res.status, 403); });
+test('management requires secret and rate limit', async () => { let res = await worker.fetch(request('/api/leads'), env); assert.equal(res.status, 401); res = await worker.fetch(request('/api/leads', { headers:{ Authorization:'Bearer test-secret' } }), env); assert.equal(res.status, 200); res = await worker.fetch(request('/api/leads', { headers:{ Authorization:'Bearer test-secret' } }), { ...env, RATE_LIMITER: { limit: async () => ({ success:false }) } }); assert.equal(res.status, 429); });

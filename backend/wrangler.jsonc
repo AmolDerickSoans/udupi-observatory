@@ -1,0 +1,31 @@
+{
+  "name": "coastalledger-intake",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-07",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.1
+    }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "coastalledger-leads",
+      "database_id": "32914fbd-ed87-45b1-b532-3b46480fa9f4"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "RATE_LIMITER",
+      "namespace_id": "2026110701",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
+  "account_id": "ea6a995d30cafe41e34708dcfe9e0fc0"
+}

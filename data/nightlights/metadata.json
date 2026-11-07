@@ -1,0 +1,37 @@
+{
+  "title": "NASA Black Marble VIIRS",
+  "geography": "Udupi–Manipal–Malpe, Karnataka",
+  "bounds_wgs84": [
+    74.65,
+    13.28,
+    74.85,
+    13.39
+  ],
+  "display": {
+    "layer": "VIIRS_Black_Marble",
+    "year": 2016,
+    "available_years": [
+      2012,
+      2016
+    ],
+    "format": "PNG",
+    "crs": "EPSG:3857",
+    "max_native_zoom": 8,
+    "tile_url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png",
+    "example_tile": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/8/118/181.png",
+    "capabilities": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml",
+    "attribution": "NASA EOSDIS GIBS / VIIRS Suomi NPP",
+    "note": "Basemap imagery, not transparent radiance overlay; native maximum level 8. 2012 and 2016 are fixed composites, not a continuous annual series."
+  },
+  "scientific": {
+    "product": "VNP46A4.002",
+    "resolution": "15 arc-second",
+    "cadence": "annual",
+    "source": "https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A4",
+    "doi": "https://doi.org/10.5067/VIIRS/VNP46A4.002",
+    "access": "NASA Earthdata authentication required for bulk scientific data",
+    "latest_verified_year": null,
+    "local_statistics": [],
+    "limitations": "No locally extracted annual radiance data available; do not infer footfall, population, property values, or annual change from rendered tiles."
+  }
+}

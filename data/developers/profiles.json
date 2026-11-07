@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Mandavi Builders",
+    "project": "Mandavi Royal Garden",
+    "location": "Kalsanka Junction, Udupi",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/180424/006793",
+    "status": "Developer lists as ongoing",
+    "source": "https://mandavibuilders.com/ongoing-projects/",
+    "source_type": "developer self-report",
+    "evidence_as_of": "2026-11-07",
+    "history": "Developer says operating since 1996 and over 30 projects; self-reported, not independently audited.",
+    "review_url": "https://www.justdial.com/Manipal/Mandavi-Developers-Eshwar-Nagar/0820PX820-X820-100222115134-K2F3_BZDET/reviews",
+    "review_note": "Business listing, not Royal Garden project; Justdial labels this a rating index based on ratings across the web, not 18 independently verified buyers. Listing address matches Mandavi Real Estate Developers in the 2016 SEAC agenda; business name identity is plausible, not verified by RERA. Search-indexed snapshot; score can change.",
+    "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+    "review_evidence": [
+      {
+        "platform": "Justdial",
+        "title": "Mandavi Developers, Eshwar Nagar, Manipal",
+        "url": "https://www.justdial.com/Manipal/Mandavi-Developers-Eshwar-Nagar/0820PX820-X820-100222115134-K2F3_BZDET/reviews",
+        "score": 4.2,
+        "score_max": 5,
+        "count": 18,
+        "observed_date": "2026-11-07",
+        "scope": "Business listing, not Royal Garden project",
+        "limitations": "Justdial labels this a rating index based on ratings across the web, not 18 independently verified buyers. Listing address matches Mandavi Real Estate Developers in the 2016 SEAC agenda; business name identity is plausible, not verified by RERA. Search-indexed snapshot; score can change.",
+        "review_themes": []
+      },
+      {
+        "platform": "Wanderlog",
+        "title": "Mandavi Prince Palace, Udupi",
+        "url": "https://wanderlog.com/place/details/8380707",
+        "score": 4.3,
+        "score_max": 5,
+        "count": 313,
+        "observed_date": "2026-11-07",
+        "scope": "Another Mandavi project, Prince Palace; Google reviews displayed by Wanderlog",
+        "limitations": "Aggregator repeats Google-sourced reviews; captured search-indexed snapshot, not live verified Google rating. Not a score for Royal Garden or developer delivery. The developer lists Prince Palace in its portfolio.",
+        "review_themes": [
+          {
+            "summary": "An April 2025 reviewer reported a positive move-in experience and staff behaviour.",
+            "review_date": "2025-04-13",
+            "attribution": "Dwani S, Google review reproduced by Wanderlog",
+            "caveat": "Individual self-reported experience; not independently verified."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grasslands Developers / Grazlanz Properties LLP",
+    "project": "Grasslands Lakeside",
+    "location": "Manipal Lake, Shivalli",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/210825/008020",
+    "status": "Developer lists as ongoing",
+    "source": "https://grasslandsdevelopers.in/lakeside/",
+    "source_type": "developer self-report",
+    "evidence_as_of": "2026-11-07",
+    "history": "Developer brochure calls this its 18th landmark project; unverified.",
+    "review_url": "https://www.justdial.com/Udupi/Grasslands-Developers-Above-Harsha-Furniture-Showroom-Ajjarkad/0820PX820-X820-140218111601-I7E1_BZDET/reviews",
+    "review_note": "Grasslands business listing, Ajjarkad; not Lakeside project; Justdial index uses ratings across the web; reviewer identity, ownership and transaction status not verified. Search-indexed snapshot; no legible review text to support sentiment themes. Radha Complex office is corroborated on https://propertyyoga.com/property-for-sale/sudarshan-residency/.",
+    "limitations": "Horizon names promoter Grazlanz Properties LLP and gives December 2033 proposed completion; Housing lists December 2030, so confirm live authority filing. https://gethorizon.in/projects/grasslands-lakeside-udupi-8qgko9qv",
+    "review_evidence": [
+      {
+        "platform": "Justdial",
+        "title": "Grasslands Developers, Ajjarkad",
+        "url": "https://www.justdial.com/Udupi/Grasslands-Developers-Above-Harsha-Furniture-Showroom-Ajjarkad/0820PX820-X820-140218111601-I7E1_BZDET/reviews",
+        "score": 4.8,
+        "score_max": 5,
+        "count": 43,
+        "observed_date": "2026-11-07",
+        "scope": "Grasslands business listing, Ajjarkad; not Lakeside project",
+        "limitations": "Justdial index uses ratings across the web; reviewer identity, ownership and transaction status not verified. Search-indexed snapshot; no legible review text to support sentiment themes. Radha Complex office is corroborated on https://propertyyoga.com/property-for-sale/sudarshan-residency/.",
+        "review_themes": []
+      }
+    ]
+  },
+  {
+    "name": "Malpe Manipal Builders Private Limited",
+    "project": "Royal Embassy",
+    "location": "D.C. Office Road, Manipal",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/171031/001531",
+    "status": "Third-party mirror labels completed; confirm",
+    "source": "https://www.aurumproptech.in/pulse/rera/karnataka/udupi/royal-embassy/1907",
+    "source_type": "third-party reproduction or authority document",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": "https://housing.com/in/buy/projects/page/203660-malpe-royal-embassy-by-malpe-manipal-builders-pvt-ltd-in-vidyaratna-nagar/reviews",
+    "review_note": "Royal Embassy project; Page reported no reviews to show in the indexed snapshot; no rating or conclusion about buyer experience is available.",
+    "limitations": "Mirror has conflicting district and progress fields; completed label alone is not an occupancy certificate.",
+    "review_evidence": [
+      {
+        "platform": "Housing.com",
+        "title": "Malpe Royal Embassy project reviews",
+        "url": "https://housing.com/in/buy/projects/page/203660-malpe-royal-embassy-by-malpe-manipal-builders-pvt-ltd-in-vidyaratna-nagar/reviews",
+        "score": null,
+        "score_max": null,
+        "count": null,
+        "observed_date": "2026-11-07",
+        "scope": "Royal Embassy project",
+        "limitations": "Page reported no reviews to show in the indexed snapshot; no rating or conclusion about buyer experience is available.",
+        "review_themes": []
+      }
+    ]
+  },
+  {
+    "name": "Bhavani Builders and Developers",
+    "project": "Bhavani Red Coral",
+    "location": "Shivalli, Manipal–Alevoor Road",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/180313/002224",
+    "status": "Third-party mirror labels completed; confirm",
+    "source": "https://www.aurumproptech.in/pulse/rera/karnataka/udupi/bhavani-red-coral/2852",
+    "source_type": "third-party reproduction or authority document",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": "https://www.justdial.com/Udupi/Bhavani-Builders-Near-Yamaha-Show-Room-Kunjibettu/0820PX820-X820-180629174948-L1C2_BZDET",
+    "review_note": "Business listing at Bhavani Red Coral Building, not project rating; Very small, across-web rating index. Listing includes generic service/repair comments; relevance to purchase or construction of a home is unverified. Search-indexed snapshot; not a quality assessment.",
+    "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+    "review_evidence": [
+      {
+        "platform": "Justdial",
+        "title": "Bhavani Builders, Kunjibettu",
+        "url": "https://www.justdial.com/Udupi/Bhavani-Builders-Near-Yamaha-Show-Room-Kunjibettu/0820PX820-X820-180629174948-L1C2_BZDET",
+        "score": 4.8,
+        "score_max": 5,
+        "count": 4,
+        "observed_date": "2026-11-07",
+        "scope": "Business listing at Bhavani Red Coral Building, not project rating",
+        "limitations": "Very small, across-web rating index. Listing includes generic service/repair comments; relevance to purchase or construction of a home is unverified. Search-indexed snapshot; not a quality assessment.",
+        "review_themes": [
+          {
+            "summary": "A reviewer described prompt service and flexible scheduling in October 2025.",
+            "review_date": "2025-10-03",
+            "attribution": "Santosh, Justdial",
+            "caveat": "Generic repair/service wording does not establish a homebuyer experience; account and experience unverified."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Supreme Builders and Developers",
+    "project": "Supreme Pearl",
+    "location": "Kukkikatte, Udupi",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/200103/003101",
+    "status": "2024 legislative record lists proposed completion 2023-12-30; present status unknown",
+    "source": "https://kla.kar.nic.in/council/Replies/unstarred/11122024/usq336%2811122024%29.pdf",
+    "source_type": "third-party reproduction or authority document",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": null,
+    "review_note": "No review evidence verified for this specific developer or project.",
+    "limitations": "Location and name association from property portal https://www.ghar.tv/udupi/kukkikatte/kukkikatte/; confirm it is same filing with authority before relying on the match.",
+    "review_evidence": []
+  },
+  {
+    "name": "Khain Properties",
+    "project": "Aashraya Apartments",
+    "location": "Kalsanka, Udupi",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/180328/002597",
+    "status": "Current completion status unknown",
+    "source": "https://www.khainproperties.com/aashraya-apartments-udupi.php",
+    "source_type": "developer self-report",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": "https://m.justdial.com/Udupi/Khain-Properties-Above-Pai-International-Udupi-Courts/0820PX820-X820-131231100835-I6D9_BZDET",
+    "review_note": "Court Road business listing, not Aashraya project; Justdial labels the score an across-web rating index. Listing address matches Khain’s public promoter address; page includes hotel-booking boilerplate. Ratings do not establish homebuyer status; search-indexed snapshot.",
+    "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+    "review_evidence": [
+      {
+        "platform": "Justdial",
+        "title": "Khain Properties, Court Road, Udupi",
+        "url": "https://m.justdial.com/Udupi/Khain-Properties-Above-Pai-International-Udupi-Courts/0820PX820-X820-131231100835-I6D9_BZDET",
+        "score": 4.9,
+        "score_max": 5,
+        "count": 29,
+        "observed_date": "2026-11-07",
+        "scope": "Court Road business listing, not Aashraya project",
+        "limitations": "Justdial labels the score an across-web rating index. Listing address matches Khain’s public promoter address; page includes hotel-booking boilerplate. Ratings do not establish homebuyer status; search-indexed snapshot.",
+        "review_themes": []
+      }
+    ]
+  },
+  {
+    "name": "Associate Builders and Construction",
+    "project": "Associate Signature",
+    "location": "Adi-Udupi",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/060623/005977",
+    "status": "Current completion status unknown",
+    "source": "https://housing.com/in/buy/projects/page/301291-associate-signature-by-associate-builders-and-construction-in-adiudupi",
+    "source_type": "third-party reproduction or authority document",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": null,
+    "review_note": "No review evidence verified for this specific developer or project.",
+    "limitations": "Verify registration, current status, title, occupancy and extension directly with Karnataka RERA and local authority.",
+    "review_evidence": []
+  },
+  {
+    "name": "M S Nayak Constructions and Developers",
+    "project": "ND Saurabha",
+    "location": "Herga, Manipal",
+    "rera_id": "PRM/KA/RERA/1273/318/PR/210518/004152",
+    "status": "Legislative record lists expiry 2026-12-31; current construction and extension status unknown",
+    "source": "https://kla.kar.nic.in/council/house/Paperlaid/149/49.pdf",
+    "source_type": "Karnataka legislature record; locality corroborated by project mirror",
+    "evidence_as_of": "2026-11-07",
+    "history": "Founding date and portfolio size not independently verified.",
+    "review_url": null,
+    "review_note": "No review evidence verified for this specific developer or project.",
+    "limitations": "Government table provides promoter address; project location corroborated by https://www.aurumproptech.in/pulse/rera/karnataka/udupi/nd-saurabha/8080. Verify live status with Karnataka RERA.",
+    "review_evidence": []
+  }
+]
