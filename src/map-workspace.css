@@ -41,7 +41,7 @@
 .geo-workspace .maplibregl-popup-content{background:#172930;color:#e7f0f4;border:1px solid #49605e;padding:12px 28px 12px 12px;border-radius:4px}.geo-workspace .maplibregl-popup-tip{border-top-color:#172930;border-bottom-color:#172930}.geo-workspace .maplibregl-popup-close-button{color:#c9dad7;font-size:20px;min-width:28px;min-height:28px}.geo-popup strong{font-size:13px}.geo-popup p{color:#bdceca;font-size:12px;margin:5px 0}.geo-popup a{color:#a4e0c6;font-size:12px}
 .geo-mobile-toggle{display:none}
 @media (min-width:801px) and (max-height:900px){
- .geo-legend{left:auto;right:24px;width:220px}
+ .geo-legend{left:auto;right:76px;width:220px}
 }
 @media(max-width:800px){
  .geo-workspace{height:calc(100dvh - var(--shell-header, 60px) - var(--shell-context, 44px) - var(--shell-mobile-nav, 72px));min-height:580px}
