@@ -2,6 +2,12 @@
 
 Review owner: chronicle and quality agent. Review date: 7 November 2026.
 
+## Impeccable refinement review — 7 November 2026
+
+The requested pass improved task-text size, visual hierarchy, mobile record inspection, acquisition navigation and the readability of retained briefs while preserving evidence and existing storage and API behavior. Local IBM Plex Sans files include their OFL license. The Python brief build and link/anchor check passed for 11 HTML documents and 21 source records.
+
+The lead's bounded browser pass covered a 943 × 635 native viewport and a 390 × 844 responsive child viewport. All six mobile routes fit without horizontal overflow; keyboard record inspection, map filtering, charts, the saved-dossier acquisition flow, capture and the public-intake deep link were exercised. The legend obscured desktop basemap controls at the shorter height; CSS was corrected, and the single confirmation pass found the controls and legend clear at the short native viewport, with roads, coast and heatmap visible. Viewport override in the native browser did not apply, so mobile was tested in a real-sized child frame. The 1440 × 1000 CSS child viewport showed no horizontal overflow across all six routes; the evidence inspector measured 340px in a 1166px parent. The latest 390 × 844 register fit a 382px client width, and a 901px brief view fit with the local font. Sampled contrast ratios ranged from 6.61 to 15.87 across body, secondary, subtle, primary, placeholder and map text. The build, eight tests, 11-document HTML check, OSINT check and diff check passed. The detector reported 269 mostly raw-value advisories; four flagged accent borders were removed, not a clean-scan claim. A stale preview asset import recovered on reload, and a pristine console is not claimed. These observations cover tested paths and are not a comprehensive accessibility assessment. The refinement is ready for deployment pending publication and verification; no new deployment or user acceptance is asserted here.
+
 ## Version 2 review — 7 November 2026
 
 The first iteration was rejected. The revised application is under active independent review, not accepted or release-certified. These current findings supersede the historical baseline review below.
